@@ -1,6 +1,6 @@
 require("main.set")
 require("main.remap")
-require("config.plugin")
+require("main.config")
 -- Need to research on what below code does
 
 -- local augroup = vim.api.nvim_create_augroup
