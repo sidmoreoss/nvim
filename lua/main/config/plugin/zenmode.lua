@@ -1,4 +1,3 @@
-
 vim.keymap.set("n", "<leader>zz", function()
     require("zen-mode").setup {
         window = {
@@ -12,7 +11,6 @@ vim.keymap.set("n", "<leader>zz", function()
     vim.wo.rnu = true
     ColorMyPencils()
 end)
-
 
 vim.keymap.set("n", "<leader>zZ", function()
     require("zen-mode").setup {
