@@ -1,8 +1,0 @@
-require ("main.config.fugitive")
-require ("main.config.harpoon")
-require ("main.config.lsp")
-require ("main.config.refactoring")
-require ("main.config.telescope")
-require ("main.config.trouble")
-require ("main.config.undotree")
-require ("main.config.zenmode")
