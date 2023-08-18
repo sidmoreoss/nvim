@@ -21,7 +21,7 @@
 
 ### 1. Non-Nixos system
 
-- Non Nixos system: ```git clone https://github.com/sidmoreoss/nvim $HOME/.config/nvim```
+- ```git clone https://github.com/sidmoreoss/nvim $HOME/.config/nvim```
 - **Note**: You need to add a plugin manager
 
 ### 2. Nixos system
