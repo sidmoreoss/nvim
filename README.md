@@ -1,18 +1,30 @@
-### ThePrimeagen's init.lua
-Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
+# NVIM configuration
 
-[The full video of me setting up this repo](https://www.youtube.com/watch?v=w7i4amO_zaE)
+## Supports
 
-For anyone that is interested in my vimrc, i will have a commit log below
-documenting each one of my commits (easy to C-f the change you want to know
-about though i would just suggest `git log -S`).
+- [x] Syntax highlighting
+- [x] Auto completion
+- [x] Go to definition
+- [x] Find and replace
+- [ ] Replace multiple occurrences
+- [ ] Multiline commenting
+- [ ] Easy file/project navigation
+- [ ] Easy to visualize folder structure
+- [ ] Git diff side by side view
+- [ ] Option to revert some parts of git diff
+- [ ] Split view
+- [ ] Terminal in split view
+- [ ] Visualize adding changes to stage (individual files)
+- [ ] Navigate through changes done while visualizing git diff
 
-### Change Log
-* [33eee9ad](https://github.com/ThePrimeagen/init.lua/commit/33eee9ad0c035a92137d99dae06a2396be4c892e) initial commits
-* [cb210006](https://github.com/ThePrimeagen/init.lua/commit/cb210006356b4b613b71c345cb2b02eefa961fc0) netrw, autogroups for yank highlighting, and auto remove whitespace
-* [c8c0bf4a](https://github.com/ThePrimeagen/init.lua/commit/c8c0bf4aeacd0bd77136d9c5ee490680515a106b) zenmode.  i really like this plugin
-* [81c770d2](https://github.com/ThePrimeagen/init.lua/commit/81c770d2d2e32e59916b39c7f5babbc8560f7a82) copilot testing
-* [4a96e645](https://github.com/ThePrimeagen/init.lua/commit/4a96e6457b0a0241ca7361ce62177aa6b9a33a38) fugitive mappings for push and pull
-* [a3bad06a](https://github.com/ThePrimeagen/init.lua/commit/a3bad06a4681c322538d609aa1c0bd18880f77c6) disabled eslint.  driving me crazy
+## Installation
 
+### 1. Non-Nixos system
 
+- Non Nixos system: ```git clone https://github.com/sidmoreoss/nvim $HOME/.config/nvim```
+- **Note**: You need to add a plugin manager
+
+### 2. Nixos system
+
+- Install using 'buildVimPlugin'. See <https://gitlab.com/lazylinux/nixos/-/blob/master/modules/systemPackages/neovim/default.nix?ref_type=heads> for the configuration
+  
