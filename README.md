@@ -26,5 +26,6 @@
 
 ### 2. Nixos system
 
-- Install using 'buildVimPlugin'. See <https://gitlab.com/lazylinux/nixos/-/blob/master/modules/systemPackages/neovim/default.nix?ref_type=heads> for the configuration
+- Install using 'buildVimPlugin'.
+- See <https://gitlab.com/lazylinux/nixos/-/blob/master/modules/systemPackages/neovim/default.nix?ref_type=heads> for the configuration
   
