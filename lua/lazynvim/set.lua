@@ -1,6 +1,6 @@
 vim.opt.guicursor = ""
 
-vim.opt.nu = true
+vim.opt.nu = false
 vim.opt.relativenumber = true
 
 vim.opt.tabstop = 4
@@ -23,13 +23,8 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
+vim.opt.signcolumn = "no"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
-
-vim.g.netrw_browse_split = 0
-vim.g.netrw_banner = 0
-vim.g.netrw_winsize = 25

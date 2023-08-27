@@ -6,7 +6,7 @@
 - [x] Auto completion
 - [x] Go to definition
 - [x] Find and replace
-- [ ] Replace multiple occurrences
+- [x] Replace multiple occurrences
 - [x] Multiline commenting. See (https://linuxhint.com/comment-multiple-lines-vim/)
 - [ ] Easy file/project navigation
 - [ ] Easy to visualize folder structure

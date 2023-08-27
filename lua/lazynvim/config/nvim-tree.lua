@@ -5,19 +5,32 @@ vim.g.loaded_netrwPlugin = 1
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
--- empty setup using defaults
-require("nvim-tree").setup()
+require("nvim-tree").setup({
+    sync_root_with_cwd = true;
+    view = {
+        adaptive_size = true,
+        width = 30,
+        hide_root_folder = false,
+        preserve_window_proportions = false,
+        number = false,
+        relativenumber = true,
+    },
+    renderer = {
+        full_name = true,
+        indent_markers = {
+            enable = true,
+        },
+        icons = {
+            show = {
+                folder = false,
+                folder_arrow = false,
+                git = true,
+            },
+        },
+    },
+    diagnostics = {
+        enable = true,
+        show_on_dirs = true,
+    },
+})
 
--- -- OR setup with some options
--- require("nvim-tree").setup({
---   sort_by = "case_sensitive",
---   view = {
---     width = 30,
---   },
---   renderer = {
---     group_empty = true,
---   },
---   filters = {
---     dotfiles = true,
---   },
--- })
