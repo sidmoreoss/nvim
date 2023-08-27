@@ -7,7 +7,7 @@
 - [x] Go to definition
 - [x] Find and replace
 - [ ] Replace multiple occurrences
-- [ ] Multiline commenting
+- [x] Multiline commenting. See (https://linuxhint.com/comment-multiple-lines-vim/)
 - [ ] Easy file/project navigation
 - [ ] Easy to visualize folder structure
 - [ ] Git diff side by side view
@@ -21,10 +21,11 @@
 
 ### 1. Non-Nixos system
 
-- Non Nixos system: ```git clone https://github.com/sidmoreoss/nvim $HOME/.config/nvim```
+- ```git clone https://github.com/sidmoreoss/nvim $HOME/.config/nvim```
 - **Note**: You need to add a plugin manager
 
 ### 2. Nixos system
 
-- Install using 'buildVimPlugin'. See <https://gitlab.com/lazylinux/nixos/-/blob/master/modules/systemPackages/neovim/default.nix?ref_type=heads> for the configuration
+- Install using 'buildVimPlugin'.
+- See <https://gitlab.com/lazylinux/nixos/-/blob/master/modules/systemPackages/neovim/default.nix?ref_type=heads> for the configuration
   
